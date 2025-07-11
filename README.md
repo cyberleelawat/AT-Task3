@@ -35,7 +35,7 @@ nano hash.txt
 #### Paste the hash value (e.g. 827ccb0eea8a706c4c34a16891f84e7b)
 ### 2️⃣ Run John the Ripper with Wordlist
 ```john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt```
-John started processing the hash against the wordlist.
+#### John started processing the hash against the wordlist.
 
 ### 3️⃣ Show the Cracked Password
 ```john --show hash.txt```
